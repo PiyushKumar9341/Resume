@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative; 
+}
+.resume-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 800px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    overflow: hidden;
+    padding: 30px; 
+}
+.section-title {
+    font-weight: 700; 
+    font-size: 1.25rem; 
+    color: #333; 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 0.4rem; 
+    margin-bottom: 1rem; 
+    text-transform: uppercase; 
+    letter-spacing: 0.02em;
+    transition: color 0.3s ease-in-out; 
+}
+.section-title.active {
+    color: #1a73e8; 
+    border-color: #1a73e8; 
+}
+.sub-section-title {
+    font-weight: 600; 
+    font-size: 1.05rem; 
+    color: #444; 
+}
+.body-text {
+    font-size: 0.95rem;
+    color: #555; 
+    line-height: 1.5; 
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1.25rem; 
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 0.2rem; 
+}
+.contact-info a {
+    color: #1a73e8; 
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.header-name {
+    color: #222; 
+    font-size: 2.2rem; 
+    margin-bottom: 0.4rem;
+}
+.header-contact-details {
+    font-size: 0.85rem; 
+    color: #666; 
+}
+
+
+section {
+    margin-bottom: 1.5rem;
+}
+.flex.justify-between.items-center {
+    margin-bottom: 0.2rem; 
+}
+
+/* JavaScript Styling   ============ */
+.copy-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.copy-button:hover {
+    background-color: #45a049;
+}
+.message-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #333;
+    display: none; 
+}
+
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    display: none;
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #1a73e8; 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#scrollToTopBtn:hover {
+    background-color: #1557b0; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+/* Skills hover effect */
+.skill-item {
+    padding: 5px;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    display: inline-block; 
+}
+.skill-item:hover {
+    transform: scale(1.03); 
+    background-color: #e2f0ff; 
+}
