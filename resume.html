@@ -6,14 +6,14 @@
     <title>Resume</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- CSS फ़ाइल को यहाँ लिंक करें -->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="resume-container">
         <!-- Header Section -->
         <header class="text-center mb-6">
-            <h1 class="font-bold header-name">PIYUSH KUMAR</h1>
+            <h1 id="userName" class="font-bold header-name">PIYUSH KUMAR</h1>
             <p class="header-contact-details mb-2">
                 +917091447111 | Greater Noida , Uttar Pradesh , India
             </p>
@@ -30,7 +30,7 @@
         <section id="objective-section">
             <h2 class="section-title">OBJECTIVE</h2>
             <p class="body-text">
-                To Obtain a Good Opportunity in a hard working Team of Growing Organization where Team lead can utilize my maximum potential to create innovative software Products.
+                Looking for a challenging opportunity in a growing organization where I can contribute to innovative software products and maximize my potential under a supportive team leader.
             </p>
         </section>
 
@@ -75,7 +75,7 @@
                     <strong class="sub-section-title">Programming Languages :</strong> Javascript, JAVA,
                 </div>
                 <div class="skill-item">
-                    <strong class="sub-section-title">Development Skills :</strong> HTML, CSS, Javascript,Typescript, Tailwindcss, Reactjs, Nextjs Nodejs.
+                    <strong class="sub-section-title">Development Skills :</strong> HTML, CSS, Javascript,Typescript, Tailwindcss, Reactjs, Nextjs Nodejs,Mongodb
                 </div>
                 <div class="skill-item">
                     <strong class="sub-section-title">Introduced With :</strong> OOPS, Computer Networking, DSA,
@@ -108,14 +108,7 @@
         <!-- Selected Projects Section -->
         <section id="projects-section">
             <h2 class="section-title">SELECTED PROJECTS</h2>
-            <div class="mb-4">
-                <h3 class="sub-section-title">Product Agency web app</h3>
-                <ul class="list-disc pl-5 body-text">
-                    <li>Developed a website for the Product Agency with Next.js.</li>
-                    <li>Amazing UI/UX Design to increase User Engagement.</li>
-                    <li>Advanced Contact option to send email through Nodemailer.</li>
-                </ul>
-            </div>
+            
             <div class="mb-4">
                 <h3 class="sub-section-title">E-commerce website</h3>
                 <ul class="list-disc pl-5 body-text">
@@ -126,8 +119,20 @@
             </div>
         </section>
 
-        <!-- Extra-Curricular Activities Section -->
+        <section id="projects-section">
+           
+            
+            <div class="mb-4">
+                <h3 class="sub-section-title">ADVANCED TODO</h3>
+                <ul class="list-disc pl-5 body-text">
+                    <li>It helps you organize your tasks efficiently with smart features </li>
+                    <li>it features task creation, deletion, and completion toggling, with local storage.</li>
+                    <li>It helps you organize your tasks efficiently with smart features </li>
+                </ul>
+            </div>
+        </section>
 
+        <!-- Extra-Curricular Activities Section -->
         <section id="activities-section">
             <h2 class="section-title">EXTRA-CURRICULAR ACTIVITIES</h2>
             <ul class="list-disc pl-5 body-text">
@@ -157,7 +162,7 @@
     <!-- Scroll to Top Button -->
     <button id="scrollToTopBtn" title="Go to top">&#9650;</button> <!-- Unicode for an upward arrow -->
 
-   
+    
     <script src="script.js"></script>
 </body>
 </html>

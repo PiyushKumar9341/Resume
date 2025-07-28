@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Listen for scroll events to highlight sections
     window.addEventListener('scroll', highlightActiveSection);
     // Call on load to set initial active section
-    highlightActivesection();
+    highlightActiveSection(); 
 
     // --- Skills Hover Effect ---
     const skillItems = document.querySelectorAll('.skill-item');
